@@ -1,0 +1,23 @@
+/* Place CSS styles here */
+body {
+    background-image: url('/img/space.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+.pic-container {
+    text-align: center;
+    display: inline-grid;
+}
+
+.picture {
+    box-shadow: 16px 8px 16px black;
+    width: auto;
+    align-self: center;
+}
+
+.btn {
+    padding: 3px;
+    margin: 10px;
+}
