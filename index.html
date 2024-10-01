@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Responsive Layouts</title>
+  <title>Zebra Form</title>
   <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,16 +18,26 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="./img/zebra_icon.jpg" type="image/x-icon">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <!-- Place your site's HTML here -->
-  <p></p>
-  <div class="pic-container">
-    <img src="img/giz2.jpg" alt="" class="picture">
-    <button class="btn">Click Me</button>
+  <div class="outer-div">
+    <div class="form-div">
+      <h1>Login</h1>
+      <form action="">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="username">
+
+        <label for="password">Password</label>
+        <input type="password" value="FakePSW" id="password" placeholder="password">
+
+        <input type="submit" value="Enter">
+      </form>
+    </div>
   </div>
   <script src="js/main.js"></script>
 </body>
